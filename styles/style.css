@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab');
+
+body, html {
+    background-color: #f3f3f3;
+}
+
+.header_head {
+    background-color: rgb(68, 68, 68);
+    height: 650px;
+    background: url(../img/header_.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.header_menu {
+/*    width: 400px;*/
+    z-index: 999;
+    position: absolute;
+    background-color: #0d3351;
+    font-family: 'Roboto Slab', serif;
+}
+.header_menu ul {
+    list-style: none; 
+    padding-right: 3rem;
+}
+.header_menu li {
+    padding: 1rem;
+}
+.header_menu a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(13, 51, 81);
+    font-size: 14px;
+}
+.bold {
+    font-weight: bold;
+}
+.small {
+    font-size: 10px;
+}
+.icon_color {
+    color: rgb(51, 199, 253);
+}
+
+.logo, 
+.btn_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading_top,
+.heading_bot {
+/*    font-size: 3rem ;*/
+    font-size: 36px ;
+    color: rgb(13, 51, 81);
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.heading_bot {
+    font-size: 100px ;
+    text-transform: uppercase;
+}
+
+.btn_main {
+    border-radius: 0px;
+    background-color: rgb(51, 199, 253);
+    width: 202px;
+    height: 47px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+}
+.btn_main:hover {
+    background-color: rgb(19, 176, 233);
+}
+.btn_main:active {
+    background-color: rgb(100, 214, 255);
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/Figure.png) no-repeat center;
+    background-size: cover;
+    width: 163px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+}
+.separated {
+    width: auto;
+    height: auto;
+}
+
+.mid_head_wrap {
+    margin-top: 6.5rem;
+    margin-bottom: 2rem
+}
+.mid_head_top {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+.mid_head_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.mid_head_bot .dropdown-toggle {
+    color: #212529;
+    font-size: 14px;
+}
+
+/*--------------*/
+
+.card {
+    background-color: #fff;
+    margin-bottom: 1.2rem;
+}
+.card_desc {
+    margin-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 50px;
+}
+.card_desc .dropright {
+    margin-left: -0.8rem;
+    font-family: 'Roboto Slab', serif;
+}
+.card_desc span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.card_img {
+    width: 100%;
+    max-width: 39rem;
+    height: auto;
+}
+.card_img img {
+    width: 555px;
+}
+.card_price {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    
+}
+.card_price_old {
+    font-size: 18px;
+    color: #9ba4ad;;
+}
+.card_flag1,
+.card_flag2{
+    background: url(../img/flag1.png) no-repeat center;
+    background-size: cover; 
+    width: 90px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card_flag2 {
+    background: url(../img/flag2.png) no-repeat center;
+    background-size: cover; 
+}
+/*----------------*/
+.footer {
+    height: 130px;
+    background-color: #fff;
+    margin-top: 3rem;
+}
+.footer_navigation_min {
+    list-style: none;
+    color: #0d3351
+}
+.footer_navigation_min a {
+    color: #0d3351;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.youtube {
+    background-image: url(../img/yt.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.social {
+    background-color: #0d3351;
+    border-radius: 50%;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    padding: 4px;
+    margin-left: 1rem;
+}
+.social:hover {
+    background-color: rgb(51, 199, 253);
+    transition: 0.5s;
+}
+.footer_telephone .small {
+    margin-bottom: 15px;
+}
+/*-----------*/
+
+.modal__image-main {
+    margin-bottom: 7px;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+.modal__small-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.modal-content {
+    width: 800px;
+    top: 150px;
+    right: 30%;
+}
+
+.modal .card {
+    border: 0px;
+}
+
